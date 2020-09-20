@@ -2,7 +2,7 @@
 n1=int(input('Enter a number:'))
 n2=int(input('Enter a number:'))
 print("Euclid's algorithm: If a=bq+r, then gcd(a,b) = gcd(b,r)")
-print("If gcd(a,b)=d, then there exist integers x0 and y0 such that d=a*x0+b*y0 (Bezout's identity) ")
+print("If gcd(a,b)=p, then there exist integers x0 and y0 such that p=a*x0+b*y0 (Bezout's identity) ")
 l=[n1,n2]
 n=max(l)
 p=min(l)
